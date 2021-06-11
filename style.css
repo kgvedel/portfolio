@@ -12,8 +12,7 @@ body{
    margin: 0;
    gap: 1rem;
    position: sticky;
- height: auto;
-
+bottom: 0;
 }
 .menu_knapper img{
     width: 4.5rem;

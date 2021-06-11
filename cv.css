@@ -1,0 +1,26 @@
+#c_boks{
+    margin: 1.5rem;
+    width:24rem;
+    height:105rem;
+    background-color: white;
+    position: absolute;
+    
+}
+#c_first_section > div:nth-child(1) > h1:nth-child(1){
+    margin-top: 14px;
+}
+
+    p{
+        max-width: 22rem;
+        margin-left: 1rem;
+    }
+
+    #c_billede{
+        width: 60%;
+        height: 60%;
+        margin-left: -1rem;
+    }
+    
+    h1, h2, h3{
+        margin-left: 1rem;
+    }

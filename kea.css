@@ -14,7 +14,6 @@
 }
 
 #k_tekst > h1:nth-child(1){
-    margin-left: 1rem;
 margin-top: 14px;
 }
 
@@ -23,6 +22,6 @@ p{
     margin-left: 1rem;
 }
 
-h2, h3{
+h1, h2, h3{
     margin-left: 1rem;
 }

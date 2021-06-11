@@ -1,0 +1,32 @@
+#a_boks{
+    margin: 1.5rem;
+    width:24rem;
+    height:105rem;
+    background-color: white;
+    position: absolute;
+    
+}
+
+p{
+    max-width: 21rem;
+    margin-left: 1rem;
+}
+
+h1, h2, h3{
+    margin-left: 1rem;
+}
+
+h1{
+    margin-top: 14px;
+}
+
+#a_billede{
+width: 300%;
+height: 300%;
+margin-left: -15.5rem;
+margin-top: -4rem;
+}
+
+#a_tekst > p:nth-child(1){
+    margin-top: -12rem;
+}
