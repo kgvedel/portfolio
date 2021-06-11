@@ -1,4 +1,6 @@
 #k_boks{
+    display: grid;
+    grid-template-columns: 1fr;
     margin: 1.5rem;
     width:24rem;
     height:105rem;
@@ -13,7 +15,7 @@
     margin: 4rem;
 }
 
-#k_tekst > h1:nth-child(1){
+#k_tekst > h1:first-child{
 margin-top: 14px;
 }
 
