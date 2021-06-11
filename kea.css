@@ -6,3 +6,23 @@
     position: absolute;
     
 }
+
+#hul_billede{
+    width: 60%;
+    height: 60%;
+    margin: 4rem;
+}
+
+#k_tekst > h1:nth-child(1){
+    margin-left: 1rem;
+margin-top: 14px;
+}
+
+p{
+    max-width: 22rem;
+    margin-left: 1rem;
+}
+
+h2, h3{
+    margin-left: 1rem;
+}
