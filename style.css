@@ -1,18 +1,24 @@
+img{
+    display: block;
+}
+
 
 body{
     background-image: url("ui_elements/baggrund_three.png");
     background-position: center;
     background-attachment: fixed;
+    
 }
 
-.menu_knapper{
+header nav ul{
    display: flex;
    list-style:none;
-   padding-left: 3rem;
-   margin: 0;
-   gap: 1rem;
+   justify-content: space-between;
+   margin: 0 auto;
+   margin-left: -2.5rem;
+   padding-bottom: 2rem;
    position: sticky;
-bottom: 0;
+  
 }
 .menu_knapper img{
     width: 4.5rem;

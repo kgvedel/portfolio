@@ -2,10 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin: 1.5rem;
-    width:24rem;
-    height:45rem;
     background-color: white;
-    position: absolute;
     
 }
 
@@ -28,22 +25,19 @@
     margin-top: -2.5rem;
 }
 
-@media (min-width:460px) {
+@media (min-width:768px) {
 
     #f_section_wrapper{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
         background-color:transparent;
     }
 
-
-
-}
-
-@media (max-width:460px){
-
-    #f_baggrund{
+    #f_trappe{
         display: none;
+    
+        
     }
 
+
 }
+
+

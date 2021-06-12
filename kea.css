@@ -1,18 +1,21 @@
 #k_boks{
+    margin: 1.5rem;
+    background-color: white;
+    height: 100%;
+}
+
+#k_first_section{
     display: grid;
     grid-template-columns: 1fr;
-    margin: 1.5rem;
-    width:24rem;
-    height:105rem;
-    background-color: white;
-    position: absolute;
-    
 }
 
 #hul_billede{
-    width: 60%;
-    height: 60%;
-    margin: 4rem;
+    width: 80%;
+    height: 80%;
+ margin: 0 auto;
+ margin-top: 3rem;
+ padding-bottom: 4rem;
+   
 }
 
 #k_tekst > h1:first-child{
@@ -20,10 +23,22 @@ margin-top: 14px;
 }
 
 p{
-    max-width: 22rem;
-    margin-left: 1rem;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    
+    
 }
 
 h1, h2, h3{
-    margin-left: 1rem;
+    margin: 0 auto;
+    padding-left: 1rem;
+    
+}
+
+h2{
+    padding-top: 7rem;
+}
+#k_second_section > div:nth-child(1) > h2:nth-child(1){
+    padding-top: 0rem;
 }
