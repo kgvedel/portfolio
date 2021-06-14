@@ -12,12 +12,11 @@ body{
     
 }
 
-header nav ul{
+nav ul{
    display: flex;
    list-style:none;
    justify-content: space-between;
-   position: sticky;
-   background-color: rgba(255, 255, 0, 0.5);
+   background-color: rgb(200,255,0, 0.5);
    padding-left: 0rem;
    margin: 1rem;
 }
@@ -26,12 +25,27 @@ header nav ul{
     
 }
 
+header{
+    
+    z-index: 10;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+footer{
+    
+        background-color: rgba(200, 255, 0, 0.7);
+        text-align: center;
+        padding: 1rem;
+    
+}
+
+
 @media (min-width:770px) {
     header nav ul{
         display: flex;
         padding: 0;
         list-style:none;
-        position: sticky;
         max-width: 50rem;
         margin: 0 auto;
         background-color:transparent;
@@ -95,3 +109,4 @@ p{
     font-family: "montserrat";
     font-size: 1rem;
 }
+

@@ -1,20 +1,22 @@
 
 /*STYLING AF MOBILE*/
+
+#k_boks{
+    
+    margin: 1.5rem;
+    background-color: white;
+}
 #k_first_section{
     display: grid;
     grid-template-columns: 1fr;
 }
 
-#hul_billede{
+#hul_billede, #hul_billede_two{
     width: 80%;
  margin: 0 auto;
  margin-top: 3rem;
  padding-bottom: 4rem;
    
-}
-
-#k_tekst > h1:first-child{
-margin-top: 14px;
 }
 
 p{
@@ -25,6 +27,7 @@ p{
 h1, h2, h3{
     margin: 0 auto;
     padding-left: 1rem;
+    padding-top: 1rem;
     
 }
 
@@ -49,6 +52,10 @@ h2{
         background-color: white;
         grid-template-rows: 1fr 1fr;
         padding-bottom: 0rem;
+    }
+
+    #k_boks{
+        background-color: transparent;
     }
 
     .boks {
