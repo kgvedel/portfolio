@@ -25,10 +25,63 @@ h1{
 
 #a_billede{
     width: 70%;
-    height: 70%;
+
 margin: 0 auto;
 
 padding-bottom: 2rem;
 
 }
 
+
+@media (min-width:770px) {
+    #a_first_section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 44rem;
+        margin: 0 auto;
+        max-height: 31.5rem;
+        margin-top: 3rem;
+        background-color: white;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 0rem;
+    }
+    #a_second_section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 44rem;
+        margin: 0 auto;
+        padding-top: 2rem;
+        background-color: white;
+        margin-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .boks {
+        width: 44rem;
+        height: 16rem;
+        transform: skew(-39deg);
+        background-color: 	rgb(200,255,0, 0.5);
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: -15rem;
+        top: 1rem;
+        }
+
+#a_billede{
+    width: 24rem;
+    grid-row: 2;
+    grid-column: 2;
+}
+#a_tekst{
+    grid-row: 2;
+}
+
+#a_boks{
+    background-color: transparent;
+    margin: 0;
+}
+footer{
+    top: 17.6rem;
+right: 14.1rem;
+}
+}
