@@ -20,6 +20,43 @@ padding-bottom: 2rem;
 
 }
 
+#r_billede{
+    display: grid;
+    gap: 12px;
+background-color: white;
+max-width: 44rem;
+margin: 0 auto;
+padding-bottom: 2rem;
+
+}
+.row{
+    height: 6rem;
+gap: 2rem;
+max-width: 44rem;
+overflow-x: scroll;
+display: flex;
+    
+}
+
+.container {
+    max-width: 44rem;
+    max-height: 28rem;
+    }
+  
+  .column img {
+    cursor: pointer;
+    width: 75px;
+    height: 69px;
+margin-left: 0rem;
+object-fit: cover;
+
+  }
+
+#expandImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 
 @media (min-width:770px) {
     #a_first_section{
@@ -38,10 +75,10 @@ padding-bottom: 2rem;
         grid-template-columns: 1fr 1fr;
         max-width: 44rem;
         margin: 0 auto;
-        padding-top: 2rem;
+        padding-top: 6rem;
         background-color: white;
         margin-top: 0rem;
-        padding-bottom: 0rem;
+        padding-bottom: 2rem;
     }
 
     .boks {
@@ -52,11 +89,10 @@ padding-bottom: 2rem;
         margin: 0 auto;
         position: relative;
         margin-bottom: -15rem;
-        top: 1rem;
         }
 
 #a_billede{
-    width: 24rem;
+    width: 23rem;
     grid-row: 2;
     grid-column: 2;
 }
@@ -66,7 +102,7 @@ padding-bottom: 2rem;
 
 #a_boks{
     background-color: transparent;
-    margin: 0;
+    margin-top: 1.5rem;
 }
 footer{
     top: 17.6rem;

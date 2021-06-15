@@ -36,6 +36,10 @@ h1, h2{
 
 @media (min-width:770px) {
 
+    #f_first_section{
+        margin-top: 1.5rem;
+    }
+
     #f_section_wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;

@@ -7,6 +7,7 @@
 #c_tekst {
     grid-column: span 2;
     padding-right: 1rem;
+   
     }
 
   #c_second_section{
@@ -21,10 +22,6 @@
 
     #c_billede{
    display: none;
-    }
-
-    #c_tekst{
-        margin-top: 1rem;
     }
     
     @media (min-width:770px) {
@@ -84,7 +81,7 @@
         position: relative;
         width: 23rem;
 left: 16.3rem;
-top: -13rem;
+top: -8rem;
 -webkit-transform: scaleX(-1);
 transform: scaleX(-1);
         
