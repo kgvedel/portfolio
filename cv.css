@@ -3,12 +3,28 @@
     background-color: white;
     
 }
+    
+#c_tekst {
+    grid-column: span 2;
+    padding-right: 1rem;
+    }
+
+  #c_second_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 44rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    background-color: white;
+    padding-bottom: 2rem;
+  }
 
     #c_billede{
-        width: 60%;
-        margin-left: -1rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+   display: none;
+    }
+
+    #c_tekst{
+        margin-top: 1rem;
     }
     
     @media (min-width:770px) {
@@ -29,6 +45,16 @@
             grid-template-rows: 1fr 1fr;
             padding-bottom: 2rem;
         }
+
+        #c_second_section{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 44rem;
+            margin: 0 auto;
+            background-color: white;
+            padding-bottom: 14rem;
+            margin-top: -4rem;
+          }
     
         .boks {
             width: 44rem;
@@ -53,6 +79,7 @@
                 }
     
     #c_billede{
+        display: block;
         margin: 0 auto;
         position: relative;
         width: 23rem;
@@ -72,18 +99,3 @@ transform: scaleX(-1);
     }
 
     }
-    #c_tekst {
-        grid-column: span 2;
-        padding-right: 1rem;
-        }
-    
-      #c_second_section{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        max-width: 44rem;
-        margin: 0 auto;
-        padding-top: 2rem;
-        background-color: white;
-        margin-top: -8rem;
-        padding-bottom: 12rem;
-      }
