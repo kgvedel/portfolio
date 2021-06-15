@@ -3,15 +3,6 @@
     background-color: white;
     
 }
-#c_first_section > div:nth-child(1) > h1:nth-child(1){
-    margin-top: 1rem;
-}
-
-    p{
-        margin: 0 auto;
-        margin-left: 1rem;
-        padding-top: 1rem;
-    }
 
     #c_billede{
         width: 60%;
@@ -20,21 +11,11 @@
         padding-bottom: 2rem;
     }
     
-    h1, h2, h3{
-        margin: 0 auto;
-        margin-left: 1rem;
-        padding-top: 1rem;
-        
-    }
-    h2{
-        padding-top: 2rem;
-    }
-
     @media (min-width:770px) {
         #c_boks{
             margin: 1.5rem;
             background-color: transparent;
-            
+            margin-bottom: -12.5rem;
         }
 
         #c_first_section{
@@ -106,14 +87,3 @@ transform: scaleX(-1);
         margin-top: -8rem;
         padding-bottom: 12rem;
       }
-    
-      h2{
-          padding-top: 2rem;
-      }
-      p{
-          padding-top: 0;
-      }
-      footer{
-        top: -21.4rem;
-      }
-    

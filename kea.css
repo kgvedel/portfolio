@@ -19,23 +19,22 @@
    
 }
 
-p{
-    padding-left: 1rem;
-    padding-top: 1rem;
-}
-
-h1, h2, h3{
-    margin: 0 auto;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    
-}
-
-h2{
-    padding-top: 7rem;
-}
 #k_second_section > div:nth-child(1) > h2:nth-child(1){
     padding-top: 0rem;
+}
+
+#billede_one img, #billede_two img, #billede_three img, #billede_four img{
+    width: 100%;
+
+}
+
+#billede_one, #billede_two, #billede_three, #billede_four{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+#k_s_tekst{
+    padding-top: 2rem;
 }
 
 
@@ -50,12 +49,12 @@ h2{
         max-height: 31.5rem;
         margin-top: 3rem;
         background-color: white;
-        grid-template-rows: 1fr 1fr;
-        padding-bottom: 0rem;
+        padding-bottom: 5rem;
     }
 
     #k_boks{
         background-color: transparent;
+        margin-bottom: -12.5rem;
     }
 
     .boks {
@@ -112,13 +111,19 @@ top: -14rem;
     margin-top: 0rem;
   }
 
-  h2{
-      padding-top: 2rem;
-  }
   p{
       padding-top: 0;
   }
-  footer{
-    top: -10.4rem;
-  }
+#billede_one, #billede_two, #billede_three, #billede_four{
+    grid-column: 2;
+    grid-row: 1;
+    padding-right: 1rem;
+    padding-top: 2rem;
+}
+
+#billede_one img, #billede_two img, #billede_three img, #billede_four img{
+    width: 20rem;
+
+}
+
 }
