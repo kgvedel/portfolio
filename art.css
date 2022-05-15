@@ -17,7 +17,13 @@
 margin: 0 auto;
 
 padding-bottom: 2rem;
+transition: 3s;
 
+}
+
+#a_billede:hover{
+transform: skew(-20deg);
+transition: 3s;
 }
 
 #r_billede{
@@ -62,23 +68,32 @@ object-fit: cover;
     #a_first_section{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 44rem;
         margin: 0 auto;
         max-height: 31.5rem;
         margin-top: 3rem;
         background-color: white;
         grid-template-rows: 1fr 1fr;
         padding-top: 0rem;
+       
+        max-width: 60rem;
+        outline: solid 10px rgb(200,255,0, 0.5);
+        padding: 2rem;
+
+
+
     }
     #a_second_section{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        max-width: 44rem;
         margin: 0 auto;
         padding-top: 6rem;
         background-color: white;
         margin-top: 0rem;
         padding-bottom: 2rem;
+
+max-width: 60rem;
+outline: solid 10px rgb(200,255,0, 0.5);
+padding: 2rem;
     }
 
     .boks {

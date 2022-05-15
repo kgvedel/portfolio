@@ -1,14 +1,14 @@
-main{
+/* main{
     display: grid;
     grid-template-columns: 1fr;
-}
+} */
 
 
 body{
     background-image: url("ui_elements/baggrund_three.webp");
-    background-position: center;
+    background-position:15%;
     background-attachment: fixed;
-    height: 100%;
+    background-repeat: no-repeat;
     
 }
 
@@ -17,28 +17,44 @@ nav ul{
    list-style:none;
    justify-content: space-between;
    background-color: rgb(200,255,0, 0.5);
-   padding-left: 0rem;
+   outline: solid 6px white;
+   padding: 5px;
    margin: 1rem;
 }
 .menu_knapper img{
     width: 5rem;
     height: 5rem;
+    transition: 1s;
     
 }
 
-header{
+.menu_knapper img:hover{
+    filter: drop-shadow(8px 8px #4800ff);
+    transition: 1s;
+    transform: scale(1.2);
     
-    z-index: 10;
-    position: sticky;
-    position: -webkit-sticky;
 }
 
 footer{
-    
-        background-color: rgba(200, 255, 0, 0.7);
+        background-color: rgb(200,255,0, 0.5);
+        height: auto;
         text-align: center;
         padding: 1rem;
+        outline: solid 6px white;
+        margin-top: 4rem;
     
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+
+a:hover{
+    text-decoration: line-through;
+    font-size: 16.5px;
+    transition: 1s;
 }
 
 
@@ -50,66 +66,50 @@ footer{
         max-width: 50rem;
         margin: 0 auto;
         background-color:transparent;
+        outline: none;
     }
 
     footer {
         background-color: white;
-        width: 48rem;
-        margin-top: 15rem;
         margin: 0 auto;
-        top: 9.6rem;
-        position: relative;
-        right: 5.1rem;
-        padding: 1px;
-        padding-left: 1re;
+        max-width: 50%;
         text-align: center;
+        height: auto;
+        outline: solid 30px rgba(200, 255, 0, 0.5);
         }
 
      }
 
-.menu_knapper img:hover{
-    filter: drop-shadow(8px 8px #c8ff00);
-    
-}
-
-.menu_knapper img{
-    width: 4.5rem;
-    height: 4.5rem;
-    
-}
-
 h1{
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue';
     font-size: 3rem;
-margin-left: 1rem;
-margin-top: 1rem;
 }
 
 h2{
-    font-family: "Bebas Neue";
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.55rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
+}
+
+.tekst_small h2{
+    font-size: 1.03rem;
+    font-weight: 900;
+    text-decoration: underline;
 }
 
 h3{
-    font-family: "bebas neue";
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
 }
 
 h4{
-    font-family: "montserrat";
-    font-size: 1.15rem;
-    margin-left: 1rem;
-margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 
 p{
-    font-family: "montserrat";
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
-    margin-left: 1rem;
-margin-top: 1rem;
+    font-weight: 400;
 }
 
