@@ -34,6 +34,7 @@
             height: 60.8rem;
             max-width: 45rem;
             padding: 5rem;
+            margin-top: 2rem;
         }
 
         .c_tekst{
@@ -52,6 +53,7 @@
 
           }
     
+
         .boks {
             width: 65%;
             height: 16rem;
@@ -76,6 +78,13 @@ transform: skew(13deg);
 
 
                 }
+                .circle{
+                  border: solid 1px black;
+                  width: 2rem;
+                  height: 2rem;
+                  border-radius: 50%;
+              }
+              
 
                 .tekst_small h2{
                   font-family: "bebas neue";
@@ -243,8 +252,8 @@ animation:
 
 .circle{
     border: solid 1px black;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
 }
 
