@@ -102,6 +102,7 @@ transition: 3s;
     }
 
     #c_billede_two{
+      display: block;
         margin: 0 auto;
         position: relative;
         width: 24rem;
