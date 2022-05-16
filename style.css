@@ -72,10 +72,10 @@ a:hover{
     footer {
         background-color: white;
         margin: 0 auto;
-        max-width: 50%;
         text-align: center;
         height: auto;
-        outline: solid 30px rgba(200, 255, 0, 0.5);
+        margin-top: 4rem;
+        outline: solid 10px rgba(200, 255, 0, 0.5);
         }
 
      }

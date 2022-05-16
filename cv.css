@@ -78,7 +78,8 @@ transform: skew(13deg);
                 }
 
                 .tekst_small h2{
-                    font-size: 1.03rem;
+                  font-family: "bebas neue";
+                    font-size: 1.35rem;
                     font-weight: 900;
                     text-decoration: underline;
                 }
@@ -117,7 +118,7 @@ transition: 3s;
     .tekst_small{
 
         display: flex;
-        max-width: 40rem; 
+        width: 36.2rem; 
         gap: 1rem;
     overflow: hidden; /* Ensures the content is not2revealed until the animation */
     border-right: .35em solid rgb(0, 0, 0); /* The typwriter cursor */
@@ -144,9 +145,11 @@ transition: 3s;
     }
 
 
+@media  (max-width:769px){
+
 .tekst_small{
     display: grid;
-    gap: .8rem;
+    gap: 1rem;
 }
     
     .tekst_small > h2:nth-child(1){
@@ -201,6 +204,7 @@ animation:
     from, to { border-color: transparent }
     50% { border-color: rgb(0, 0, 0); }
   }
+}
 
 
 
