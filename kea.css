@@ -124,7 +124,8 @@ transition: 3s;
 
 .list_card{  
     width: 100%;
-    flex: 1 0 200px;
+    flex: 1 0 300px;
+    flex-wrap: wrap;
     box-sizing: border-box;
     margin: 1rem 0.25em;
     border-radius: 0.25rem;
